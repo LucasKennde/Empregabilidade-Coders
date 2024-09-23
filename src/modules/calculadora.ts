@@ -8,6 +8,9 @@ class calculadora {
         this.valorRecebido += valor
         return this.valorRecebido
     }
-    
+    public subtrair(valor:number):number{
+        this.valorRecebido -= valor
+        return this.valorRecebido
+    }
 
 }
