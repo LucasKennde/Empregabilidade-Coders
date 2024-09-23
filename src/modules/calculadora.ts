@@ -4,4 +4,10 @@ class calculadora {
         this.valorRecebido = valorInicial
     }
 
+    public adicionar(valor:number):number{
+        this.valorRecebido += valor
+        return this.valorRecebido
+    }
+    
+
 }
