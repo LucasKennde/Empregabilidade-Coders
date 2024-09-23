@@ -12,5 +12,10 @@ class calculadora {
         this.valorRecebido -= valor
         return this.valorRecebido
     }
+    public multiplicar(valor:number):number {
+        this.valorRecebido *= valor
+        return this.valorRecebido
+        
+    }
 
 }
