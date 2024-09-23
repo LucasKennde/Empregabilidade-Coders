@@ -15,7 +15,13 @@ class calculadora {
     public multiplicar(valor:number):number {
         this.valorRecebido *= valor
         return this.valorRecebido
-        
     }
+    public dividir(value: number): number {
+        if (value === 0) {
+          throw new Error("Divisão por zero não permitida!");
+        }
+        this.valorRecebido /= value;
+        return this.valorRecebido;
+      }
 
 }
